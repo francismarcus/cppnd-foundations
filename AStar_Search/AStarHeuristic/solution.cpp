@@ -41,12 +41,12 @@ vector<vector<State>> ReadBoardFile(string path) {
   return board;
 }
 
-/*
-	* Write an int Heuristic function which takes four ints as arguments
-
-	*The ints represent two pairs of 2D coordinates: (x1, y1, x2, y2)
-
-	*The function should return an int which is the Manhattan Distance from one coordinate to the other:
+/**
+ * Write an int Heuristic function which takes four ints as arguments
+ *
+ * The ints represent two pairs of 2D coordinates: (x1, y1, x2, y2)
+ *
+ * The function should return an int which is the Manhattan Distance from one coordinate to the other:
     (x2 - x1) + (y2 - y1)
 */
 
